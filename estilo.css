@@ -1,14 +1,15 @@
 body{
-    background-image: url('fundo.jpeg');
+    background-image: url("img/fundo.jpeg");
     background-size: cover;
 }
 nav{
     background-color: rgba(255, 0, 0, 0.984);
     color: rgb(0, 0, 0);
     padding: 10px;
-    font-family: 'Courier New';
-    font-weight: bold;
+  font-family: "Libertinus Mono", monospace;
+  font-style: normal;
 }
+
  .banner{
     width: 1100px;
     height: 600px;
