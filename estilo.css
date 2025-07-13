@@ -10,16 +10,6 @@ nav{
   font-style: normal;
 }
 
- .banner{
-    width: 1100px;
-    height: 600px;
-    position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 100px;
- }
-
  footer{
     background-color: red;
     color: black;
@@ -90,4 +80,11 @@ header{
 
 .horario-card {
   max-width: 400px;
+}
+
+.banner {
+  width: 1100px;
+  height: 500px;
+  display: block;
+  margin: 0 auto; 
 }
