@@ -65,4 +65,29 @@ header{
 .icon{
    height: 45px;
    margin-right: 15px;
+
+}.container {
+  display: flex;
+  align-items: center; 
+  gap: 20px; 
+}
+
+.container img {
+  width: 455px; 
+  height: 425px;
+}
+
+.localizacao-container {
+  display: flex;
+  gap: 30px; 
+  padding: 30px; 
+  justify-content: center; 
+}
+
+.localizacao-container iframe {
+  max-width: 600px;
+}
+
+.horario-card {
+  max-width: 400px;
 }
