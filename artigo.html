@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leitura do Artigo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="artigos.js" defer></script>
+  <script defer>
+    document.addEventListener("DOMContentLoaded", () => {
+      const params = new URLSearchParams(window.location.search);
+      const id = params.get("id");
+
+      const artigo = artigos[id];
+
+      if (artigo) {
+        document.getElementById("titulo").textContent = artigo.titulo;
+        document.getElementById("data").textContent = artigo.data;
+        document.getElementById("imagem").src = artigo.imagem;
+        document.getElementById("imagem").alt = artigo.titulo;
+        document.getElementById("conteudo").innerHTML = artigo.conteudo;
+      } else {
+        document.getElementById("conteudo").innerHTML = "<p>Artigo não encontrado.</p>";
+      }
+    });
+  </script>
+  <style>
+    .blog-article img {
+      max-width: 100%;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+    .blog-article h1, .blog-article h2 {
+      color: #c30000;
+    }
+    .blog-article p {
+      text-align: justify;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Logo" height="30"> Papelaria Mickey</a>
+    </div>
+  </nav>
+
+  <section class="container my-5 blog-article">
+    <a href="blog.html" class="btn btn-danger mb-4">&larr; Voltar para o Blog</a>
+    <h1 id="titulo"></h1>
+    <p class="text-muted" id="data"></p>
+    <img id="imagem" src="" alt="Imagem do artigo">
+    <div id="conteudo"></div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 Papelaria Mickey – Todos os direitos reservados</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
