@@ -8,6 +8,11 @@ nav{
     padding: 10px;
   font-family: "Libertinus Mono", monospace;
   font-style: normal;
+  font-size: 22px;
+}
+nav img{
+  width: 100px;
+  height: 80px;
 }
 
  footer{
@@ -55,16 +60,29 @@ header{
 .icon{
    height: 45px;
    margin-right: 15px;
-
-}.container {
+}
+.container {
   display: flex;
   align-items: center; 
   gap: 20px; 
 }
-
 .container img {
   width: 455px; 
   height: 425px;
+}
+.produtos-destaque {
+  display: flex;
+  align-items: center; 
+  gap: 20px;
+  justify-content: center; 
+}
+.produtos-destaque img {
+  width: 455px; 
+  height: 425px;
+}
+.card {
+  max-width: 986px;
+  background-color: rgb(216, 215, 215);
 }
 
 .localizacao-container {
