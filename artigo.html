@@ -4,9 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Leitura do Artigo</title>
+  <link rel="stylesheet" href="artigo.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="artigos.js" defer></script>
   <script defer>
+    
     document.addEventListener("DOMContentLoaded", () => {
       const params = new URLSearchParams(window.location.search);
       const id = params.get("id");
@@ -24,19 +26,6 @@
       }
     });
   </script>
-  <style>
-    .blog-article img {
-      max-width: 100%;
-      border-radius: 12px;
-      margin-bottom: 20px;
-    }
-    .blog-article h1, .blog-article h2 {
-      color: #c30000;
-    }
-    .blog-article p {
-      text-align: justify;
-    }
-  </style>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -54,7 +43,7 @@
   </section>
 
   <footer class="bg-dark text-white text-center py-3">
-    <p>&copy; 2025 Papelaria Mickey – Todos os direitos reservados</p>
+  &copy; Papelaria Mickey. Todos os direitos reservados.
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>

@@ -2,7 +2,7 @@ const artigos = {
   "volta-aulas": {
     titulo: "Kit Volta às Aulas 2025: O que não pode faltar?",
     data: "29 de julho de 2025",
-    imagem: "img/volta-aulas.jpg",
+    imagem: "img/img-blog1.webp",
     conteudo: `
       <p>Voltar às aulas pode ser empolgante quando estamos com o material novinho em folha! E nada melhor do que montar um kit completo, bonito e funcional. Neste post, separamos dicas essenciais pra você preparar seu material com estilo e organização!</p>
 
@@ -33,7 +33,7 @@ const artigos = {
   "lancamentos": {
     titulo: "Lançamentos de Produtos: Confira as Novidades!",
     data: "28 de julho de 2025",
-    imagem: "img/lancamentos.jpg",
+    imagem: "img/img-blog2.jpg",
     conteudo: `
       <p>A Papelaria Mickey está sempre trazendo produtos novos e criativos para você que ama papelaria. Confira os lançamentos da semana!</p>
 
@@ -52,7 +52,7 @@ const artigos = {
   "organizacao": {
     titulo: "Organização e Estudos: Use a Papelaria a Seu Favor",
     data: "27 de julho de 2025",
-    imagem: "img/organizacao.jpg",
+    imagem: "img/img-blog3.jpg",
     conteudo: `
       <p>Com a rotina corrida, manter a organização nos estudos ou no trabalho é essencial. E com a papelaria certa, isso fica até divertido!</p>
 
@@ -66,5 +66,52 @@ const artigos = {
 
       <p>Organizar também é uma forma de se cuidar. Invista em você com produtos que inspiram produtividade!</p>
     `
+  },
+
+  "canetas": {
+    titulo: "Como escolher a melhor caneta para cada tipo de escrita",
+    data: "29 de julho de 2025",
+    imagem: "img/canetas.jpg",
+    conteudo: `
+      <p>Você já parou pra pensar como a escolha da caneta influencia na sua escrita? Seja para estudar, trabalhar ou fazer lettering, a caneta certa faz toda a diferença!</p>
+
+      <h2>1. Caneta esferográfica</h2>
+      <p>Perfeita para o dia a dia. Tem uma escrita leve, seca rápido e não borra. Ideal para anotações rápidas e uso escolar.</p>
+
+      <h2>2. Caneta em gel</h2>
+      <p>Com cores vivas e traço suave, é ótima para quem gosta de personalizar cadernos, fazer títulos ou destacar informações.</p>
+
+      <h2>3. Caneta ponta fina</h2>
+      <p>Ideal para planners e letras pequenas. Oferece precisão e ajuda a manter a escrita mais limpa e organizada.</p>
+
+      <h2>4. Caneta brush (pincel)</h2>
+      <p>Quer se aventurar no lettering? Essa é a escolha certa! A ponta flexível permite criar traços finos e grossos com estilo.</p>
+
+      <p>Visite nossa papelaria e teste diferentes modelos para descobrir qual combina mais com o seu estilo!</p>
+    `
+  },
+
+  "decoracao": {
+    titulo: "Dicas para decorar seu caderno ou planner",
+    data: "29 de julho de 2025",
+    imagem: "img/decoracao.jpg",
+    conteudo: `
+      <p>Transforme seu caderno ou planner em algo único e criativo com essas dicas simples e acessíveis!</p>
+
+      <h2>1. Washi tapes e adesivos</h2>
+      <p>Use fitas decorativas e adesivos temáticos para dar cor e alegria às suas páginas.</p>
+
+      <h2>2. Canetas coloridas</h2>
+      <p>Escreva títulos, subtítulos e observações em cores diferentes para facilitar a leitura e deixar tudo mais bonito.</p>
+
+      <h2>3. Colagens e recortes</h2>
+      <p>Revistas, papéis de presente ou papéis decorativos podem virar arte no seu caderno.</p>
+
+      <h2>4. Estilo bullet journal</h2>
+      <p>Adote o estilo bujo e crie layouts semanais, rastreadores de hábitos, listas criativas e mais!</p>
+
+      <p>Decorar também é uma forma de relaxar e se conectar com seus objetivos. Vem se inspirar com a gente!</p>
+    `
   }
 };
+
