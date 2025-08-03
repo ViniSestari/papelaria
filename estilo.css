@@ -6,7 +6,7 @@ body{
   flex-direction: column;
 }
 nav{
-    background-color: rgba(255, 0, 0, 0.984);
+    background-color: #c30000;
     color: rgb(0, 0, 0);
     padding: 10px;
   font-family: "Libertinus Mono", monospace;
@@ -19,7 +19,7 @@ nav img{
 }
 
  footer{
-    background-color: red;
+    background-color: #c30000;
     color: #000000;
     padding: 20px;
     font-family: 'Courier New';

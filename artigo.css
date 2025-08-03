@@ -30,3 +30,25 @@
   font-size: 1.5rem;
   margin-bottom: 8px;
 }
+nav{
+    background-color:  #c30000;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+  font-family: "Libertinus Mono", monospace;
+  font-style: normal;
+  font-size: 22px;
+}
+nav img{
+  width: 100px;
+  height: 100px;
+}
+footer{
+    background-color: #c30000;
+    color: #000000;
+    padding: 20px;
+    font-family: 'Courier New';
+    font-weight: bold;
+    margin-top: auto;
+    width: 100%;
+    text-align: center;
+  }
