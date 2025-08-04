@@ -51,21 +51,21 @@
               <p class="text-center mb-4">
                 Tem alguma dúvida ou ficou interessado por algo? Entre em contato conosco pelas redes sociais ou envie sua mensagem pelo formulário abaixo!
               </p>
-              <form>
-                <div class="mb-3">
-                  <label for="nome" class="form-label">Nome</label>
-                  <input type="text" class="form-control" id="nome" placeholder="Seu nome" required>
-                </div>
-                <div class="mb-3">
-                  <label for="email" class="form-label">E-mail</label>
-                  <input type="email" class="form-control" id="email" placeholder="seu@email.com" required>
-                </div>
-                <div class="mb-3">
-                  <label for="mensagem" class="form-label">Mensagem</label>
-                  <textarea class="form-control" id="mensagem" rows="4" placeholder="Escreva sua mensagem..." required></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary w-100">Enviar</button>
-              </form>
+              <form action="https://formspree.io/f/xzzvawve" method="POST">
+  <div class="mb-3">
+    <label for="nome" class="form-label">Nome</label>
+    <input type="text" class="form-control" id="nome" name="nome" placeholder="Seu nome" required>
+  </div>
+  <div class="mb-3">
+    <label for="email" class="form-label">E-mail</label>
+    <input type="email" class="form-control" id="email" name="email" placeholder="seu@email.com" required>
+  </div>
+  <div class="mb-3">
+    <label for="mensagem" class="form-label">Mensagem</label>
+    <textarea class="form-control" id="mensagem" name="mensagem" rows="4" placeholder="Escreva sua mensagem..." required></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary w-100">Enviar</button>
+</form>
               <hr>
               <div class="text-center">
                 <p class="mb-2">Ou fale direto pelas redes sociais:</p>
