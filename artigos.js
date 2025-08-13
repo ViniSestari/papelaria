@@ -71,7 +71,7 @@ const artigos = {
   "canetas": {
     titulo: "Como escolher a melhor caneta para cada tipo de escrita",
     data: "29 de julho de 2025",
-    imagem: "img/canetas.jpg",
+    imagem: "img/img-blog4.jpg",
     conteudo: `
       <p>Você já parou pra pensar como a escolha da caneta influencia na sua escrita? Seja para estudar, trabalhar ou fazer lettering, a caneta certa faz toda a diferença!</p>
 
@@ -94,7 +94,7 @@ const artigos = {
   "decoracao": {
     titulo: "Dicas para decorar seu caderno ou planner",
     data: "29 de julho de 2025",
-    imagem: "img/decoracao.jpg",
+    imagem: "img/img-blog5.png",
     conteudo: `
       <p>Transforme seu caderno ou planner em algo único e criativo com essas dicas simples e acessíveis!</p>
 
